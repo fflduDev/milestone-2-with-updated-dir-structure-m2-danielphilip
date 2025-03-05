@@ -11,6 +11,14 @@ package template;
  */
 
 class Contact {
-	 
+    private String name;
+
+    public Contact(String name) {
+        this.name = name;
+    }
+	 public void addPhonebookEntry(String number, String type){
+        
+
+     }
 
 }
